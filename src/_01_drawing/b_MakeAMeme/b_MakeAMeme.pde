@@ -1,19 +1,18 @@
 
-// 1. Drag and drop the fistPump.png image onto this sketch
-
+// 1. Drag and drop the fistPump.png image `onto this sketch
 void setup() {
  // 2. Set the size of the sketch to be 500 x 500
-
+size(342,349);
  // The following code loads the image into the program
-  PImage baby = loadImage("fistPump.png");
-  
+  PImage screech = loadImage("Screech.png");
+
   // 3. Resize the baby image to be the same size as the sketch
   //    Use the baby.resize() command for this
-
+screech.resize(342,349);
 
   // 4. Set the baby image to be the background of your sketch
   //    Use the background() command for this
-
+background(screech);
   
   // 5. Write the message "TESTED MY PROGRAM" at the top of the meme
   //    Use the text() command for this

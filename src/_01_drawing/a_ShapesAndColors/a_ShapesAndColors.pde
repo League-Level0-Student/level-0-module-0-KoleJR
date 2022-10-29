@@ -15,9 +15,15 @@
  ellipse(250,250,125,125);
    ellipse(250,400,200,200);
  ellipse(250,600,300,300);
+ fill(#030303);
  ellipse(250,400,10,10);
+
+ 
+ 
  ellipse(250,350,10,10);
  ellipse(250,440,10,10);
+ 
+ fill(#FC0505);
  ellipse(230,250,15,15);
  ellipse(270,250,15,15);
    
@@ -28,9 +34,11 @@
 
 // 4. Now add a rect command to draw a rectangle.
 
-//    The rect command looks like this:       
+//    The rect command looks like this:   
+fill(#03F2FC);
 rect(138,175,225,20);
-rect(200,125,225,40);
+
+rect(185,100,135,75);
 //    Like the ellipse, the fist 2 numbers specify where to draw it, the other two are its size.
 //    The main difference is the x and y co-ordinates are the top left corner of the shape.
 //    If the width is the same as the height, it draws a square.
@@ -50,7 +58,8 @@ fill(#FFA850);
 // 6. The next shape you draw will be in the color you selected. 
 //    NOTE: You have to put the fill command with the color you want, 
 //    BEFORE you draw the shape.
-
+triangle(185,100,40,40,40,40);
+triangle(250,260,250,270,280,265);
 // 7. Now use all these shapes and colors to draw a picture of your own design. 
 
 // MAKE SURE YOU SAVE YOUR CODE 
