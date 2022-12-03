@@ -31,13 +31,13 @@ while(count < 50)
 rob.setRandomPenColor();
 			// DRAW.    Move the robot (5*count) pixels
 			//          count is the name of the variable you created earlier
-
+rob.move(5*count);
 			// TURN.    Turn the robot (360/7) degrees to the right
-
+rob.turn(360/7);
 			// COUNT.   Increase the count of how many lines have been drawn so far ( count+=1 )
-
+count+=1;
 			// Change the robot pen width to the current value of the count variable 
-
+rob.setPenWidth(count);
 
 		//  End the while loop here
 }
